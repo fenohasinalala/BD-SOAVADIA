@@ -41,11 +41,11 @@ Pour creer la base de données, nous avons la commande suivante:
 ```
 Ici, 
 
-**\i** représente la commande pour exécuter un fichier sql; 
+`\i` représente la commande pour exécuter un fichier sql; 
 
-**/var/lib/pgsql/data/projet/** représente le chemin absolu;
+`/var/lib/pgsql/data/projet/` représente le chemin absolu;
 
-**soavadia.sql** représente le fichier à excuter.
+`soavadia.sql` représente le fichier à excuter.
 
 ### 3.2. *Insertion des données*
 Pour insérer les données fictives dans la base de données, nous avons la commande suivante:
@@ -54,9 +54,9 @@ Pour insérer les données fictives dans la base de données, nous avons la comm
 ```
 Ici,
 
-**/var/lib/pgsql/data/projet/** représente le chemin absolu;
+`/var/lib/pgsql/data/projet/` représente le chemin absolu;
 
-**donnees_fictifs.sql** représente le fichier à excuter.
+`donnees_fictifs.sql` représente le fichier à excuter.
 
 ### 3.3. *Exécution des requêtes Sql*
 Pour exécuter une requête Sql, prenons la requête permettant d'afficher les places disponibles pour un trajet comme exemple, nous avons la commande suivante:
@@ -65,6 +65,6 @@ Pour exécuter une requête Sql, prenons la requête permettant d'afficher les p
 ```
 Ici,
 
-**/var/lib/pgsql/data/projet/LISTES_REQUETES** représente le chemin absolu;
+`/var/lib/pgsql/data/projet/LISTES_REQUETES` représente le chemin absolu;
 
-**client_places_disponibles_pour_un_trajet.sql** représente le fichier à exécuter.
+`client_places_disponibles_pour_un_trajet.sql` représente le fichier à exécuter.
