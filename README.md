@@ -1,2 +1,70 @@
-# BD-SOAVADIA
-BASE DE DONNEES - COOPERATIVE SOAVADIA
+# BASE DE DONNEES - COOPERATIVE SOAVADIA
+
+
+
+## 1. Introduction sur le projet
+Réaliser par: ...
+
+### 1.1. *Description du projet*
+
+### 1.1. *Schéma*
+
+
+
+## 2. Contenu du repository
+Ce repository comprend trois dossiers principaux, qui sont les suivants:
+* Le dossier **"BD_SOAVADIA"** : 
+
+Il contient le fichier Sql **"soavadia.sql"** exécutable sur Postgresql, permettant de créer la structure de la base de données de la coopérative soavadia. c'est-à-dire les tables avec leurs attributs respectifs, ainsi que leurs relations.
+* Le dossier **"DONNEES_FICTIFS"** : 
+
+le fichier Sql **"donnees_fictifs.sql"** exécutable sur Postgresql, présent dans de dossier permet d'insérer des données fictives, ayant pour objectif de tester et simuler les requetés possibles et réalisables sur la base de données. Les données fictives ont ete generés sur [Mockaroo](https://www.mockaroo.com/).
+* Le dossier **"LISTES_REQUETES"** : 
+
+Dans ce dossier nous pouvons trouver plusieurs fichiers Sql, un fichier Sql correspondant à une requête intéressant à effectuer sur la base de données. l'objectif étant de récupérer les informations utiles à afficher aux clients mais aussi aux membres du personnel.
+
+
+
+## 3. Utilisation du repository
+
+La conception de la base de données sur la coopérative Soavadia ainsi que tous les éléments y afferent ont etes conçu sur Postgresql.
+Par conséquent, il est nécessaire d'avoir Postgresql sur votre machine pour pouvoir exécuter les fichiers de ce repository.
+pour plus d'informations sur Postgresql, veuillez consulter le site officiel avec le lien ci-après \([Postgresql](https://www.postgresql.org/)\).
+
+Tout l'abord il faut se connecter sur le terminale Postgresql, puis saisir les commandes présentes à chaque étape selon l'ordre ci-dessous.
+Remarque: les fichiers doivent être mis dans un emplacement facile d'accès, en effet, leurs chemins absolus sont requis à chaque exécution de fichier.
+
+### 3.1. *Création de la base de données*
+Pour creer la base de données, nous avons la commande suivante:
+```
+\i /var/lib/pgsql/data/projet/soavadia.sql
+```
+Ici, 
+
+**\i** représente la commande pour exécuter un fichier sql; 
+
+**/var/lib/pgsql/data/projet/** représente le chemin absolu;
+
+**soavadia.sql** représente le fichier à excuter.
+
+### 3.2. *Insertion des données*
+Pour insérer les données fictives dans la base de données, nous avons la commande suivante:
+```
+\i /var/lib/pgsql/data/projet/donnees_fictifs.sql
+```
+Ici,
+
+**/var/lib/pgsql/data/projet/** représente le chemin absolu;
+
+**donnees_fictifs.sql** représente le fichier à excuter.
+
+### 3.3. *Exécution des requêtes Sql*
+Pour exécuter une requête Sql, prenons la requête permettant d'afficher les places disponibles pour un trajet comme exemple, nous avons la commande suivante:
+```
+\i /var/lib/pgsql/data/projet/LISTES_REQUETES/client_places_disponibles_pour_un_trajet.sql
+```
+Ici,
+
+**/var/lib/pgsql/data/projet/LISTES_REQUETES** représente le chemin absolu;
+
+**client_places_disponibles_pour_un_trajet.sql** représente le fichier à exécuter.
