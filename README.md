@@ -4,16 +4,18 @@
 
 ## 1. Introduction sur le projet
 Ce projet consiste à concevoir une base de données sur une coopérative terrestre sous le nom de " SOAVADIA " qui est situé à Madagascar en ce moment.
-        **"Objectif de la base"** : 
-    Cette base a été créée pour mieux gérer toutes les informations essentielles relatives à l'organisation interne de la coopérative c’est-à-dire liste personnelle, listes vehicule, organisation des voyages, etc.; mais aussi les informations liées aux clients pour faciliter leur réservation et leur payement pour un voyage.
+
+ **"Objectif de la base"** : 
+ 
+Cette base a été créée pour mieux gérer toutes les informations essentielles relatives à l'organisation interne de la coopérative c’est-à-dire liste personnelle, listes vehicule, organisation des voyages, etc.; mais aussi les informations liées aux clients pour faciliter leur réservation et leur payement pour un voyage.
 
 
 ### 1.1. *Description du projet*
-      Ce projet de base de données a pour but d'aider l'agence SOAVADIA pour mieux gérer son agence et a pour principe de faire en sorte que toutes les données soient automatiques pour mieux s'organiser et ne pas se perdre dans les divers dossiers.
+Ce projet de base de données a pour but d'aider l'agence SOAVADIA pour mieux gérer son agence et a pour principe de faire en sorte que toutes les données soient automatiques pour mieux s'organiser et ne pas se perdre dans les divers dossiers.
 
 
 ### 1.2. *Schéma*
-    Voici la merise ( schéma de la base) conçue pour celui-ci : 
+Voici la merise ( schéma de la base) conçue pour celui-ci : 
 
 
 ## 2. Contenu du repository
