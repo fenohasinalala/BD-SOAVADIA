@@ -2,17 +2,23 @@
 
 
 
-## 1. Introduction sur le projet
-Réaliser par: ...
 
-### 1.1. *Description du projet*
+## 1. Introduction
 
-### 1.1. *Schéma*
+Ce projet consiste à concevoir une base de données sur une coopérative de transport de voyageurs sous le nom de " SOAVADIA " qui se situe à Madagascar.
 
+Cette base a été créée pour mieux gérer toutes les informations essentielles relatives à l'organisation interne de la coopérative c’est-à-dire liste personnelle, listes vehicule, organisation des voyages, etc.; mais aussi les informations liées aux clients, pour leur faciliter la réservation et le payement d'un voyage. Ce qui sera réalisé de façon automatique pour éviter les pertes de temps ainsi que les éventuels erreurs.
+
+Voici le schéma de la base de données modélisé suivant la méthode merise pour celui-ci : 
+
+![schéma BD Soavadia](D:/chemin/Ssoavadia.png)
+(Schéma + titre)
 
 
 ## 2. Contenu du repository
-Ce repository comprend trois dossiers principaux, qui sont les suivants:
+Ce repository contient toute la liste des requêtes possibles et qu'on a trouvée intéressantes dans la base de données SOAVADIA qui est une agence de voyages qui nous a demandé de leur faire un BD pour gérer leurs entreprises.
+
+Il comprend trois dossiers principaux, qui sont les suivants:
 * Le dossier **"BD_SOAVADIA"** : 
 
 Il contient le fichier Sql **"soavadia.sql"** exécutable sur Postgresql, permettant de créer la structure de la base de données de la coopérative soavadia. c'est-à-dire les tables avec leurs attributs respectifs, ainsi que leurs relations.
@@ -41,11 +47,11 @@ Pour creer la base de données, nous avons la commande suivante:
 ```
 Ici, 
 
-**\i** représente la commande pour exécuter un fichier sql; 
+`\i` représente la commande pour exécuter un fichier sql; 
 
-**/var/lib/pgsql/data/projet/** représente le chemin absolu;
+`/var/lib/pgsql/data/projet/` représente le chemin absolu;
 
-**soavadia.sql** représente le fichier à excuter.
+`soavadia.sql` représente le fichier à excuter.
 
 ### 3.2. *Insertion des données*
 Pour insérer les données fictives dans la base de données, nous avons la commande suivante:
@@ -54,9 +60,9 @@ Pour insérer les données fictives dans la base de données, nous avons la comm
 ```
 Ici,
 
-**/var/lib/pgsql/data/projet/** représente le chemin absolu;
+`/var/lib/pgsql/data/projet/` représente le chemin absolu;
 
-**donnees_fictifs.sql** représente le fichier à excuter.
+`donnees_fictifs.sql` représente le fichier à excuter.
 
 ### 3.3. *Exécution des requêtes Sql*
 Pour exécuter une requête Sql, prenons la requête permettant d'afficher les places disponibles pour un trajet comme exemple, nous avons la commande suivante:
@@ -65,6 +71,6 @@ Pour exécuter une requête Sql, prenons la requête permettant d'afficher les p
 ```
 Ici,
 
-**/var/lib/pgsql/data/projet/LISTES_REQUETES** représente le chemin absolu;
+`/var/lib/pgsql/data/projet/LISTES_REQUETES` représente le chemin absolu;
 
-**client_places_disponibles_pour_un_trajet.sql** représente le fichier à exécuter.
+`client_places_disponibles_pour_un_trajet.sql` représente le fichier à exécuter.
