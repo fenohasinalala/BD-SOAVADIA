@@ -2,17 +2,36 @@
 
 
 
+<<<<<<< HEAD
+=======
+## 1. Introduction sur le projet
+Ce projet consiste à concevoir une base de données sur une coopérative terrestre sous le nom de " SOAVADIA " qui est situé à Madagascar en ce moment.
+
+ **"Objectif de la base"** : 
+ 
+Cette base a été créée pour mieux gérer toutes les informations essentielles relatives à l'organisation interne de la coopérative c’est-à-dire liste personnelle, listes vehicule, organisation des voyages, etc.; mais aussi les informations liées aux clients pour faciliter leur réservation et leur payement pour un voyage.
+>>>>>>> 3c67bab9fb17ceb5f2681a13fe0792ee2e3122fb
 
 ## 1. Introduction
 
+<<<<<<< HEAD
 Ce projet consiste à concevoir une base de données sur une coopérative de transport de voyageurs sous le nom de " SOAVADIA " qui se situe à Madagascar.
+=======
+### 1.1. *Description du projet*
+Ce projet de base de données a pour but d'aider l'agence SOAVADIA pour mieux gérer son agence et a pour principe de faire en sorte que toutes les données soient automatiques pour mieux s'organiser et ne pas se perdre dans les divers dossiers.
+>>>>>>> 3c67bab9fb17ceb5f2681a13fe0792ee2e3122fb
 
 Cette base a été créée pour mieux gérer toutes les informations essentielles relatives à l'organisation interne de la coopérative c’est-à-dire liste personnelle, listes vehicule, organisation des voyages, etc.; mais aussi les informations liées aux clients, pour leur faciliter la réservation et le payement d'un voyage. Ce qui sera réalisé de façon automatique pour éviter les pertes de temps ainsi que les éventuels erreurs.
 
+<<<<<<< HEAD
 Voici le schéma de la base de données modélisé suivant la méthode merise pour celui-ci : 
 
 ![schéma BD Soavadia](D:/chemin/Soavadia.png)
 (Schéma + titre)
+=======
+### 1.2. *Schéma*
+Voici la merise ( schéma de la base) conçue pour celui-ci : 
+>>>>>>> 3c67bab9fb17ceb5f2681a13fe0792ee2e3122fb
 
 
 ## 2. Contenu du repository
