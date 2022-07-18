@@ -11,7 +11,7 @@ Cette base a été créée pour mieux gérer toutes les informations essentielle
 
 Voici le schéma de la base de données modélisé suivant la méthode merise pour celui-ci : 
 
-![schéma BD Soavadia](D:/chemin/Ssoavadia.png)
+![schéma BD Soavadia](https://github.com/fetraandri/BD-SOAVADIA/blob/main/Soavadia.png)
 (Schéma + titre)
 
 
