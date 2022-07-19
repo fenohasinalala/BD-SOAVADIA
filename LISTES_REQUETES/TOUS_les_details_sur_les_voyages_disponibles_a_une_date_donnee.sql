@@ -28,3 +28,22 @@ from details_voyage_date_specifique
 inner join nombre_reservation_par_voyage_date_specifique 
 on nombre_reservation_par_voyage_date_specifique.id_voyage = details_voyage_date_specifique.id_voyage
 where details_voyage_date_specifique.nombre_place-nombre_reservation_par_voyage_date_specifique.count>0;
+
+/*
+id_voyage | date_depart | horaire_depart | ville_depart | ville_arrivee | label_offre | frais_voyage_avec_coef | nombre_place | place_disponible 
+-----------+-------------+----------------+--------------+---------------+-------------+------------------------+--------------+------------------
+        71 | 2022-07-16  | 12:00:00       | Antananarivo | Antsiranana   | lite        |                 115000 |           16 |                4
+        68 | 2022-07-16  | 12:00:00       | Toamasina    | Antananarivo  | vip         |                  72000 |            8 |                3
+        70 | 2022-07-16  | 07:00:00       | Antsirabe    | Antananarivo  | vip         |                  34000 |            8 |                4
+        67 | 2022-07-16  | 07:00:00       | Antananarivo | Fianarantsoa  | lite        |                  42000 |           16 |                1
+        63 | 2022-07-16  | 18:00:00       | Fianarantsoa | Antsirabe     | premium     |                  37500 |           16 |                2
+        69 | 2022-07-16  | 18:00:00       | Antananarivo | Antsiranana   | premium     |                 172500 |           16 |                4
+        66 | 2022-07-16  | 18:00:00       | Antananarivo | Toamasina     | premium     |                  54000 |           16 |                5
+        65 | 2022-07-16  | 12:00:00       | Antsirabe    | Fianarantsoa  | premium     |                  37500 |           16 |                6
+        62 | 2022-07-16  | 12:00:00       | Mahajanga    | Antsiranana   | vip         |                 160000 |            8 |                2
+        72 | 2022-07-16  | 18:00:00       | Toamasina    | Antananarivo  | premium     |                  54000 |           16 |                6
+        61 | 2022-07-16  | 07:00:00       | Antananarivo | Antsirabe     | lite        |                  17000 |           16 |                4
+        64 | 2022-07-16  | 07:00:00       | Fianarantsoa | Antsirabe     | lite        |                  25000 |           16 |                3
+(12 rows)
+
+*/

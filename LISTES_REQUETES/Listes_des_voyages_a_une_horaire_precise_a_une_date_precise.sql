@@ -13,3 +13,15 @@ left join ville villeA on villeA.id_ville = trajet.id_ville_arrivee
 where voyage.date_depart = '2022-07-19' 
 and voyage.horaire_depart = '07:00:00'
 order by date_depart DESC;
+
+
+/*
+id_voyage | date_depart | horaire_depart | frais_voyage | ville_de_depart | ville_d_arrivee 
+-----------+-------------+----------------+--------------+-----------------+-----------------
+        97 | 2022-07-19  | 07:00:00       |        17000 | Antsirabe       | Antananarivo
+       100 | 2022-07-19  | 07:00:00       |        84000 | Fianarantsoa    | Antananarivo
+       103 | 2022-07-19  | 07:00:00       |       172500 | Antsiranana     | Antananarivo
+       106 | 2022-07-19  | 07:00:00       |        63000 | Antananarivo    | Fianarantsoa
+(4 rows)
+
+*/
