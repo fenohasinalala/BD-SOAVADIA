@@ -7,12 +7,17 @@
 
 Ce projet consiste à concevoir une base de données sur une coopérative de transport de voyageurs sous le nom de " SOAVADIA " qui se situe à Madagascar.
 
+
+### 1.1. *Description du projet*
+Ce projet de base de données a pour but d'aider l'agence SOAVADIA pour mieux gérer son agence et a pour principe de faire en sorte que toutes les données soient automatiques pour mieux s'organiser et ne pas se perdre dans les divers dossiers.
+=======
 Cette base a été créée pour mieux gérer toutes les informations essentielles relatives à l'organisation interne de la coopérative c’est-à-dire liste personnelle, listes vehicule, organisation des voyages, etc.; mais aussi les informations liées aux clients, pour leur faciliter la réservation et le payement d'un voyage. Ce qui sera réalisé de façon automatique pour éviter les pertes de temps ainsi que les éventuels erreurs.
 
-Voici le schéma de la base de données modélisé suivant la méthode merise pour celui-ci : 
-
+### 1.2. *Schéma*
+Voici la merise ( schéma de la base) conçue pour celui-ci : 
 ![schéma BD Soavadia](https://github.com/fetraandri/BD-SOAVADIA/blob/main/Soavadia.png)
 (Schéma + titre)
+
 
 
 ## 2. Contenu du repository
@@ -29,7 +34,7 @@ le fichier Sql **"donnees_fictifs.sql"** exécutable sur Postgresql, présent da
 
 Dans ce dossier nous pouvons trouver plusieurs fichiers Sql, un fichier Sql correspondant à une requête intéressant à effectuer sur la base de données. l'objectif étant de récupérer les informations utiles à afficher aux clients mais aussi aux membres du personnel.
 
-
+Vous pourriez trouver les listes des requetes temporaires ici : [Listes des requetes](https://docs.google.com/document/d/1lIa7BZmPssiG-z6KJMA9Y-lNBaj48Uv4j33pd0EYt34/edit?usp=sharing).
 
 ## 3. Utilisation du repository
 
