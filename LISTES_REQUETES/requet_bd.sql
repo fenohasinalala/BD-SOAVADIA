@@ -25,10 +25,13 @@ SELECT date_depart, nom_ville FROM voyage
 
 -- Afficher les trajets les plus rentables pendant une saison (seulement les gains, pas les dépenses)
 SELECT DISTINCT depense_regulier  FROM voyage
-WHERE id_saison;
+WHERE id_saison=1 ;
 
  
 
 -- afficher le frais_de_base: référencie au frais_d'un_voyage:
 SELECT date_depart, horaire_depart, frais_de_base  FROM voyage 
 INNER JOIN trajet ON voyage.id_trajet = trajet.id_trajet; 
+
+-- Afficher les listes des voyages à une horaire précise, à une date précise
+SELECT * FROM voyage WHEN date_depart = '2022-06-13'; 
