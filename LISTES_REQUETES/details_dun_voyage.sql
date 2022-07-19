@@ -12,3 +12,12 @@ left join offre on offre.id_offre = voiture.id_offre
 left join ville villeD on villeD.id_ville = trajet.id_ville_depart
 left join ville villeA on villeA.id_ville = trajet.id_ville_arrivee
 where voyage.id_voyage = 24;
+
+/*
+soavadia-# \i /var/lib/pgsql/data/projet/soavadia/details_dun_voyage.sql 
+ coef_saison | coef_offre | frais_de_base | date_depart | horaire_depart | frais_voyage | ville_de_depart | ville_d_arrivee 
+-------------+------------+---------------+-------------+----------------+--------------+-----------------+-----------------
+           1 |          1 |         80000 | 2022-07-12  | 18:00:00       |        80000 | Mahajanga       | Antsiranana
+(1 row)
+
+*/

@@ -17,7 +17,7 @@ inner join ville villeD on trajet.id_ville_depart = villeD.id_ville
 inner join ville villeA on trajet.id_ville_arrivee = villeA.id_ville
 
 where payement.payement_complet = false;
-
+/*
 id_reservation | date_reservation | numero_place |       nom       |          prenom           | date_depart | horaire_depart | ville_depart | ville_arrivee | id_recep
 tionniste | payement_complet 
 ----------------+------------------+--------------+-----------------+---------------------------+-------------+----------------+--------------+---------------+---------
@@ -55,3 +55,5 @@ tionniste | payement_complet
             366 | 2022-07-04       |            1 | Zo              | Eliane                    | 2022-07-13  | 12:00:00       | Antananarivo | Toamasina     |         
        28 | f
             429 | 2022-07-06       |            9 | James           | Estelle                   | 2022-07-13  | 18:00:00       | Antananarivo | Fianarantsoa  |  
+
+            */

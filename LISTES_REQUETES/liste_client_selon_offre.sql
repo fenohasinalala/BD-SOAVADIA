@@ -10,7 +10,7 @@ inner join voiture on voyage.id_voiture = voiture.id_voiture
 inner join offre on voiture.id_offre = offre.id_offre
 where offre.id_offre = 3;
 
-
+/*
 id_reservation |       nom       |          prenom           | label_offre 
 ----------------+-----------------+---------------------------+-------------
              45 | Marius          | Rosette                   | vip
@@ -34,3 +34,4 @@ id_reservation |       nom       |          prenom           | label_offre
             266 | Rakotondrazaka  | Julienne                  | vip
             267 | Rand            | Lucie                     | vip
             332 | Jonah           | Celestin                  | vip
+*/

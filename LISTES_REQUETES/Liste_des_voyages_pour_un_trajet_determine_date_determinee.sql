@@ -14,3 +14,10 @@ left join offre on voiture.id_offre = offre.id_offre
 where villeD.nom_ville = 'Antananarivo' 
 and villeA.nom_ville = 'Antsirabe' 
 and date_depart = '2022-07-23';
+
+/*
+id_voyage | date_depart | horaire_depart | ville_depart | ville_arrivee | label_offre | immatriculation 
+-----------+-------------+----------------+--------------+---------------+-------------+-----------------
+       151 | 2022-07-23  | 07:00:00       | Antananarivo | Antsirabe     | lite        | 6001NCM
+(1 row)
+*/

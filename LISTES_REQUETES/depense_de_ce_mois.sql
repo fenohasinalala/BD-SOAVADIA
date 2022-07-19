@@ -20,7 +20,7 @@ inner join voiture on voiture.id_voiture = voyage.id_voiture
 where date_depart >= current_date - INTERVAL '1 month'
 and date_depart <= current_date;
 
-
+/*
     date    |   description   | depense 
 ------------+-----------------+---------
  2022-07-19 | 3349WVB         |  141600
@@ -58,3 +58,4 @@ and date_depart <= current_date;
  2022-07-17 | 9259WBO         |   97200
  2022-07-17 | 3060NMI         |   64800
  2022-07-16 | 0499SAD         |   97200
+*/
