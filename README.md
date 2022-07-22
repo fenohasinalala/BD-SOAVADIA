@@ -14,8 +14,6 @@ Cette base a été créée pour mieux gérer toutes les informations essentielle
 ### 1.2. *Schéma*
 Voici la merise ( schéma de la base) conçue pour celui-ci : 
 ![schéma BD Soavadia](https://github.com/fetraandri/BD-SOAVADIA/blob/main/Soavadia.png)
-(Schéma + titre)
-
 
 
 ## 2. Contenu du repository
