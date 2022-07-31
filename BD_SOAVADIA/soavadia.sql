@@ -1,3 +1,6 @@
+\c postgres;
+DROP DATABASE soavadia;
+
 CREATE DATABASE soavadia; 
 
 \c soavadia;
@@ -115,3 +118,10 @@ CREATE TABLE faire_maintenance(
     id_voiture int references voiture(id_voiture) not null,
     id_maintenance int references maintenance(id_maintenance) not null
 );
+
+
+-- MODIFICATION SUR LA BASE DE DONNEES
+ALTER TABLE offre 
+    ADD label_offre varchar(20) not null;
+ALTER TABLE offre 
+    ALTER COLUMN coef_offre TYPE double precision;

@@ -1,4 +1,4 @@
-ALTER TABLE offre ADD label_offre varchar(20) not null;
+-- INSERTION DES DONNEES FICTIFS
 
 -- receptionniste
 INSERT INTO receptionniste (nom_receptionniste,prenom_receptionniste,adresse_receptionniste,cin_receptionniste,telephone_receptionniste,salaire_receptionniste) VALUES ('Philippe','Arnaud','Ankorondrano','102-647-569-201','033-88-740-98',700000);
